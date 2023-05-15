@@ -1,5 +1,4 @@
 # Geographic Information System (GIS)
 
-
-
-Written using C++ with the EZGL library, OpenStreetMap API and GTK library.
+![Alt text](Main.png)
+Written using C++ with the EZGL library, GTK library and OpenStreetMap API.
