@@ -46,7 +46,7 @@ Using the C++ Libcurl API, accurate and current weather information is displayed
 
 Distance Scale
 --------------
-To help the user with a better sense of distance, a distance scale shown in the bottom right corner.
+To help the user with a better sense of distance, a distance scale is shown in the bottom right corner.
 
 Algorithms
 ==========
