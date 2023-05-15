@@ -56,4 +56,13 @@ Levenshtein's distance algorithm was used for fuzzy search. When a user searches
 
 Dijkstra's Algorithm with Heuristics (A* Algorithm)
 ---------------------------------------------------
-Algorithm used to find a path with the shortest travel time. One additional feature is that the algorithm takes into account of left and right turns on streets for approximating traffic lights.
+Algorithm used to find a path with the shortest travel time. One additional feature is that the algorithm takes into account of left and right turns on streets for approximating traffic lights. Additionally, a heuristics was added to enhance the search time of the algorithm. This heuristics was calculated by dividing the maximum speed with the distance between the current and destination nodes. This was then added to the time taken to travel a street. This new travel time was then used to find the shortest path between two locations.
+![Alt text](Dijkstra.png)
+
+Multi-destination Dijkstra's Algorithm
+--------------------------------------
+Given one source and multiple destinations, the user can find the shortest path between the source and each destination. This algorithm is useful when finding the solution for the travelling courier problem. Even though there are multiple destinations, this algorithm has the same time complexity as Dijkstra's algorithm with only one destination.
+
+Travelling Courier Problem
+--------------------------
+This was a variation of the travelling salesman problem. If the user wants to deliver a package around the city, the user must pickup the packages and then drop them off only if the package was already picked up. Since this problem is an NP problem, only an approximate answer is possible. The path to the shortest time taken to pick up and drop off all packages were calculated using the multi-destination Dijkstra's algorithm discussed above. After finding a path, the 2-opt algorithm was applied to randomly switch around the delivery locations such that the path time decreases. To optimize the search time, multithreading was used to separate the tasks into different threads.
