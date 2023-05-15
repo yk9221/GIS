@@ -61,7 +61,8 @@ Algorithm used to find a path with the shortest travel time. One additional feat
 
 Multi-destination Dijkstra's Algorithm
 --------------------------------------
-Given one source and multiple destinations, the user can find the shortest path between the source and each destination. This algorithm is useful when finding the solution for the travelling courier problem. Even though there are multiple destinations, this algorithm has the same time complexity as Dijkstra's algorithm with only one destination.
+Given one source and multiple destinations, the user can find the shortest path between the source and each destination. This algorithm is useful when finding the solution for the travelling courier problem. Even though there are multiple destinations, this algorithm has the same time complexity as Dijkstra's algorithm with only one destination. The green circle represents the source and the blue circles represent the multiple destinations.
+![Alt text](MultiDijkstra.png)
 
 Travelling Courier Problem
 --------------------------
