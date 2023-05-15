@@ -24,20 +24,29 @@ By zooming further in the map displays icons in its accurate location. Currently
 
 Searching
 ---------
-
+The user can search for streets, intersections, features and point of interests. When a search has multiple results, the results are shown on the left. When a result is clicked, the location is zoomed in for easier navigation. Additionally, the user can filter searches, such as restaurants, cafes, etc. This helps with more accurate search results.
+![Alt text](Search.png)
 
 Auto complete
 -------------
-To help the user with a better searching experience, auto complete is enabled to the search bar. The auto complete results change when the user decides to search in a different city.
+To help the user with a better searching experience, auto complete is enabled to the search bar. The auto complete results change when the user decides to search in a different city. Auto complete is available in multiple langauges such as English, Chinese, Japanese, Spanish, French and Arabic.
 ![Alt text](Autocomplete.png)
 
 Directions
 ----------
-There are two ways to get the direction from two points. The user can click on the map to place the starting location and then click once again to pinpoint the destination.
+The user can click on the map to place the starting location and then click once again to pinpoint the destination. Furthermore, directions can be highlighted when the cursor is hovering over the direction.
+![Alt text](Directions.png)
+
+The user can also search for the source and destination either by searching the intersection of two streets or the address of the location. If multiple results are found the user can choose from given results.
+![Alt text](MultipleResults.png)
 
 Weather
 -------
-Using the C++ Libcurl API, accurate and current weather information is displayed on the bottom right corner.  
+Using the C++ Libcurl API, accurate and current weather information is displayed on the bottom right corner. Both the temperature and the weather condition is shown.
+
+Distance Scale
+--------------
+To help the user with a better sense of distance, a distance scale shown in the bottom right corner.
 
 Algorithms
 ==========
