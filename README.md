@@ -14,7 +14,7 @@ Subway data such as the location, color and lines were extracted from the OSM da
 
 Night mode
 ----------
-Night mode is used for users who want a dark background while maintaing contrast ratios. The background color as well as street, building and land feature colors are inverted for visual comfort.
+Night mode is used for users who want a dark background while maintaining contrast ratios. The background color as well as street, building and land feature colors are inverted for visual comfort.
 ![Alt text](Nightmode.png)
 
 Icons
